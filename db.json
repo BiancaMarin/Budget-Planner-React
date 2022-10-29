@@ -1,3 +1,69 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "bianca@bianca.com",
+      "password": "$2a$10$ki32Dc3vcVm1tmLgWiNt8eYfYyyQZzDW1JozVsKW.k06hTMtSo5b2",
+      "firstName": "bianca",
+      "lastName": "ioana",
+      "id": 1
+    },
+    {
+      "email": "marin.biancaioana@gmail.com",
+      "password": "$2a$10$53LOCX3MyoHKYDQhlxTn7OR0GQoVCh5ngqlx6JS/2jW1aOfaEGWIO",
+      "firstName": "Bianca",
+      "lastName": "Marin",
+      "id": 2
+    },
+    {
+      "email": "cata@cata.com",
+      "password": "$2a$10$IAINz1xBQz7NQ2.Ra1rJGuUykStLjFUiA91eGUvgm9kUQP1UAjVoi",
+      "firstName": "bbbb",
+      "lastName": "nnnn",
+      "id": 3
+    },
+    {
+      "email": "bbb@vvv.com",
+      "password": "$2a$10$ppd1GdSvqYlw91iEZfVxPe9jsAwej7.F3Qqi7wYSH5oo/pcp2pEzS",
+      "firstName": "gggg",
+      "lastName": "ggg",
+      "id": 4
+    }
+  ],
+  "transactions": [
+    {
+      "type": "expense",
+      "description": "Utilities",
+      "amount": "400",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "type": "income",
+      "description": "salary",
+      "amount": "200",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "type": "income",
+      "description": "rent",
+      "amount": "700",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "type": "expense",
+      "description": "ggg",
+      "amount": "1000",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "type": "income",
+      "description": "hhhhh",
+      "amount": "3000",
+      "userId": 1,
+      "id": 5
+    }
+  ]
 }

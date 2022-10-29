@@ -1,0 +1,24 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard h1 {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.dashboard .info-panel {
+  border-radius: 8px;
+  border: 1px solid #b2b1b9;
+}
+
+.dashboard .info-panel .income-expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  font-weight: 600;
+}
