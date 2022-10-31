@@ -43,6 +43,13 @@
       "amount": "2800",
       "userId": 1,
       "id": 9
+    },
+    {
+      "type": "income",
+      "description": "fff",
+      "amount": "8999",
+      "userId": 1,
+      "id": 10
     }
   ]
 }

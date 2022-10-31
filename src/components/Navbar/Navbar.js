@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthContext } from '../../features/Auth/AuthContext';
-
 import styles from './Navbar.module.css';
 
 function Navbar() {
@@ -18,7 +17,7 @@ function Navbar() {
         <ul className={styles['navbar-menu']}>
           {user && (
             <>
-              <li>Welcome {user.firstName}</li>
+              <li>Welcome, {user.firstName}</li>
               <li>
                 {' '}
                 <a

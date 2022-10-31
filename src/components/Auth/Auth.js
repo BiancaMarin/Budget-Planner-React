@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
-import styles from './Auth.module.css';
+// import styles from './Auth.module.css';
 
 function Auth() {
   const [values, setValues] = useState({
