@@ -159,16 +159,6 @@ function Auth() {
                 )}
               </>
             )}
-            {!isRegister && (
-              <div>
-                <input
-                  type="checkbox"
-                  id="check"
-                  className={styles['checkbox']}
-                />
-                <label htmlFor="check">Remember me</label>
-              </div>
-            )}
 
             <button type="submit">{isRegister ? 'Sign In' : 'Log In'}</button>
           </form>

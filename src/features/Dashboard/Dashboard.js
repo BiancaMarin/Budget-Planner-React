@@ -11,7 +11,7 @@ function Dashboard() {
       <Navbar />
       <div className={styles['dashboard']}>
         <section className={styles['info-panel']}>
-          <h1>My budget</h1>
+          <h1>myBudget</h1>
           <div>
             <Balance />
           </div>

@@ -1,15 +1,17 @@
 .add-transaction h2 {
   font-size: 1rem;
+  font-weight: 200;
   text-align: center;
   padding-bottom: 0.5rem;
+  color: #dddddd;
 }
 
 .form-transaction {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 2rem 3rem;
-  background-color: #b2b1b9;
+  padding: 1.5rem;
+  background-color: #3c4048;
   border-radius: 8px;
 }
 
@@ -17,7 +19,7 @@
   border: none;
   border-radius: 8px;
   width: 15rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 
 .form-transaction input {
@@ -25,7 +27,7 @@
   border: none;
   border-radius: 8px;
   width: 15rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 
 .form-transaction input::placeholder {
@@ -37,10 +39,10 @@
 .form-transaction button {
   height: 2rem;
   width: 15rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border: none;
   border-radius: 8px;
   background-color: #ffb200;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
 }

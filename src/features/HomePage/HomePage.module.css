@@ -1,5 +1,5 @@
 .landing-page {
-  background-color: #eaeaea;
+  background-color: #212121;
   height: 100vh;
 }
 
@@ -12,10 +12,10 @@ main {
   position: relative;
 }
 
-.circle {
+/* .circle {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background-color: #ffb200;
   border-radius: 50%;
   top: 50px;
@@ -24,32 +24,35 @@ main {
 }
 .small-circle {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   background-color: #ffb200;
   border-radius: 50%;
   top: 50px;
   left: 370px;
   opacity: 70%;
-}
+} */
 
 main h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 4px;
-  margin-bottom: 2rem;
-}
-
-main h1 span {
-  margin-left: 1rem;
+  margin: 4rem 0;
+  color: #ffb200;
+  text-align: center;
 }
 
 main h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #dddddd;
+  font-weight: 200;
 }
 
 main p {
-  margin: 1rem 0;
+  margin: 1rem;
+  color: #dddddd;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 main .get-started {
@@ -60,7 +63,10 @@ main .get-started {
   background-color: #ffb200;
   cursor: pointer;
   margin-top: 2rem;
-  font-weight: 600;
+}
+
+main .get-started a {
+  color: #212121;
 }
 
 main .arrow {

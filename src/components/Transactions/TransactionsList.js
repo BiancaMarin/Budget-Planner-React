@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { TransactionsContext } from '../../context/TransactionsContext';
 import TransactionItem from './TransactionItem';
+import styles from './TransactionsList.module.css';
 
 function TransactionsList() {
   const { transactions, setTransactions } = useContext(TransactionsContext);
@@ -12,7 +13,8 @@ function TransactionsList() {
   }
 
   return (
-    <section>
+    <section className={styles['transactions']}>
+      <h2>Transaction Details</h2>
       {transactions.map((transaction) => (
         <TransactionItem key={transaction.id} transaction={transaction} />
       ))}

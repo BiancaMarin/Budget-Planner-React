@@ -3,7 +3,7 @@
     {
       "email": "bianca@bianca.com",
       "password": "$2a$10$ki32Dc3vcVm1tmLgWiNt8eYfYyyQZzDW1JozVsKW.k06hTMtSo5b2",
-      "firstName": "bianca",
+      "firstName": "Bianca",
       "lastName": "ioana",
       "id": 1
     },
@@ -33,37 +33,16 @@
     {
       "type": "expense",
       "description": "Utilities",
-      "amount": "400",
-      "userId": 1,
-      "id": 1
-    },
-    {
-      "type": "income",
-      "description": "salary",
-      "amount": "200",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "type": "income",
-      "description": "rent",
-      "amount": "700",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "type": "expense",
-      "description": "ggg",
-      "amount": "1000",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "type": "income",
-      "description": "hhhhh",
       "amount": "3000",
       "userId": 1,
-      "id": 5
+      "id": 8
+    },
+    {
+      "type": "income",
+      "description": "Design",
+      "amount": "2800",
+      "userId": 1,
+      "id": 9
     }
   ]
 }

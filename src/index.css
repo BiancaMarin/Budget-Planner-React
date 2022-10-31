@@ -5,13 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: #3c4048;
 }
 
 li {
   list-style-type: none;
+  color: #dddddd;
 }
 
 a {
   text-decoration: none;
+  color: #dddddd;
 }

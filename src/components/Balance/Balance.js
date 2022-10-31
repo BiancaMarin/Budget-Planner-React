@@ -2,6 +2,8 @@ import React from 'react';
 import { useContext } from 'react';
 import { TransactionsContext } from '../../context/TransactionsContext';
 import styles from './Balance.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 function Balance() {
   const { transactions } = useContext(TransactionsContext);
@@ -15,10 +17,9 @@ function Balance() {
     Number(transaction.amount)
   );
 
-  const totalExpenseAmounts = expenseAmounts.reduce(
-    (acc, item) => (acc += item),
-    0
-  );
+  const totalExpenseAmounts = expenseAmounts
+    .reduce((acc, item) => (acc += item), 0)
+    .toFixed(2);
 
   //INCOME TRANSACTIONS//
   const incomeTransactions = transactions.filter(
@@ -29,13 +30,12 @@ function Balance() {
     Number(transaction.amount)
   );
 
-  const totalIncomeAmounts = incomeAmounts.reduce(
-    (acc, item) => (acc += item),
-    0
-  );
+  const totalIncomeAmounts = incomeAmounts
+    .reduce((acc, item) => (acc += item), 0)
+    .toFixed(2);
 
   //BALANCE//
-  const balance = totalIncomeAmounts - totalExpenseAmounts;
+  const balance = (totalIncomeAmounts - totalExpenseAmounts).toFixed(2);
   console.log(balance);
 
   return (
@@ -43,21 +43,39 @@ function Balance() {
       <section>
         <div className={styles['balance']}>
           {' '}
-          <p>Balance</p>
-          <output>${balance}</output>
+          <p>Current Balance</p>
+          <output>
+            <span>$</span>
+            {balance}
+          </output>
         </div>
       </section>
-      <section>
+      <section className={styles['income-expense']}>
         <div className={styles['incomes']}>
-          <p>Incomes</p>
-          <output className={styles['positive']}>${totalIncomeAmounts}</output>
+          <p>
+            Incomes{' '}
+            <FontAwesomeIcon
+              icon={solid('arrow-up')}
+              className={styles['positive']}
+            />{' '}
+          </p>
+          <output className={styles['positive']}>
+            {' '}
+            <span>$</span>
+            {totalIncomeAmounts}
+          </output>
         </div>
-      </section>
-      <section>
         <div className={styles['expenses']}>
-          <p>Expenses</p>
+          <p>
+            Expenses{' '}
+            <FontAwesomeIcon
+              icon={solid('arrow-down')}
+              className={styles['negative']}
+            />
+          </p>
           <output className={styles['negative']}>
-            -${totalExpenseAmounts}
+            <span>$</span>
+            {totalExpenseAmounts}
           </output>
         </div>
       </section>

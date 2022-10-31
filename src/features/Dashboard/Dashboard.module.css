@@ -3,16 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #212121;
+  height: 100vh;
 }
 
 .dashboard h1 {
+  padding-bottom: 0.5rem;
   text-align: center;
-  padding: 0.5rem 0;
+  color: #dddddd;
+  font-weight: 400;
 }
 
 .dashboard .info-panel {
   border-radius: 8px;
-  border: 1px solid #b2b1b9;
 }
 
 .dashboard .info-panel .income-expense {

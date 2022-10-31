@@ -1,0 +1,45 @@
+.card-transaction {
+  display: grid;
+  grid-template-columns: 1fr 1fr 40px;
+  justify-items: end;
+  align-items: center;
+  width: 18rem;
+  margin-top: 0.5rem;
+}
+
+.card-transaction .description {
+  color: #dddddd;
+  font-weight: 200;
+  font-size: 1rem;
+  justify-self: flex-start;
+}
+
+.money {
+  color: #ffb200;
+  padding-right: 0.5rem;
+}
+
+.card-transaction span {
+  padding-right: 0.2rem;
+}
+
+.card-transaction button {
+  border: none;
+  background-color: transparent;
+}
+
+.card-transaction .trash {
+  color: #ffb200;
+}
+
+.positive {
+  color: #59ce8f;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.negative {
+  color: #eb4747;
+  font-weight: 200;
+  font-size: 0.8rem;
+}

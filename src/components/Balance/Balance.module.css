@@ -5,3 +5,52 @@
   align-items: center;
   padding: 0.5rem;
 }
+
+.balance p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #dddddd;
+  background-color: #3c4048;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
+}
+
+.balance output {
+  font-size: 1.8rem;
+  color: #dddddd;
+  font-weight: 200;
+}
+
+.income-expense {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.income-expense div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.income-expense div p {
+  color: #dddddd;
+  font-size: 0.8rem;
+}
+
+.income-expense .incomes .positive {
+  color: #59ce8f;
+}
+
+.income-expense .expenses .negative {
+  color: #eb4747;
+}
+
+span {
+  padding-right: 0.5rem;
+}
