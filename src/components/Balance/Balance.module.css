@@ -54,3 +54,21 @@
 span {
   padding-right: 0.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .balance-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+  }
+  .balance {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .balance p {
+    margin-right: 0.5rem;
+  }
+}

@@ -31,13 +31,6 @@
   ],
   "transactions": [
     {
-      "type": "expense",
-      "description": "Utilities",
-      "amount": "3000",
-      "userId": 1,
-      "id": 8
-    },
-    {
       "type": "income",
       "description": "Design",
       "amount": "2800",
@@ -50,6 +43,20 @@
       "amount": "8999",
       "userId": 1,
       "id": 10
+    },
+    {
+      "type": "expense",
+      "description": "jjjj",
+      "amount": "899",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "type": "expense",
+      "description": "jjjjjj",
+      "amount": "677",
+      "userId": 1,
+      "id": 12
     }
   ]
 }

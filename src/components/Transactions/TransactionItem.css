@@ -43,3 +43,13 @@
   font-weight: 200;
   font-size: 0.8rem;
 }
+
+@media screen and (min-width: 768px) {
+  .card-transaction {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #3c4048;
+    border-radius: 8px;
+    width: 850px;
+  }
+}

@@ -1,5 +1,5 @@
 .auth-section {
-  background-color: #eaeaea;
+  background-color: #212121;
   height: 100vh;
 }
 
@@ -8,56 +8,52 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
-.form {
+.form-bgc .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  background-color: #b2b1b9;
+  align-items: center;
+  background-color: #3c4048;
   border-radius: 8px;
-  padding: 3rem;
+  margin: 1.5rem;
+  padding: 1rem;
 }
 
-.form p {
-  font-size: 0.9rem;
+.form-bgc .form h2 {
+  color: #dddddd;
+  font-weight: 200;
+}
+
+.form-bgc .form p {
+  font-size: 0.8rem;
   padding-bottom: 1rem;
+  color: #dddddd;
+  text-align: center;
 }
 
-.form input {
-  margin: 1rem 0 0 0;
+.form-bgc .form input {
+  margin-top: 1rem;
   border: none;
   border-radius: 8px;
   width: 15rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 
-.form div {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-
-.form .checkbox {
-  width: 1rem;
-  margin: 0;
-}
-
-.form input::placeholder {
+.form-bgc .form input::placeholder {
   padding-left: 0.5rem;
   font-size: 0.7rem;
   font-style: italic;
 }
 
-.form label {
+.form-bgc .form label {
   font-size: 0.9rem;
   padding-left: 0.5rem;
 }
 
-.form button {
+.form-bgc .form button {
   height: 2rem;
   width: 15rem;
   margin-top: 1rem;
@@ -65,11 +61,13 @@
   border-radius: 8px;
   background-color: #ffb200;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
 }
 
-.form .error {
+.form-bgc .form .error {
+  align-self: flex-start;
   color: red;
   padding: 0;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  text-align: left;
 }

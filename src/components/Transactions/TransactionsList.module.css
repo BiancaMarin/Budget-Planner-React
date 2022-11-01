@@ -1,8 +1,17 @@
 .transactions {
   margin: 0.5rem 0;
+  width: 100%;
 }
 
 .transactions h2 {
   font-size: 1rem;
   color: #3c4048;
+}
+
+@media screen and (min-width: 768px) {
+  .transactions h2 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin-left: 1rem;
+  }
 }

@@ -46,3 +46,28 @@
   cursor: pointer;
   font-weight: 400;
 }
+
+@media screen and (min-width: 768px) {
+  .form-transaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .form-transaction select {
+    width: 10rem;
+  }
+
+  .form-transaction input {
+    margin: 0;
+    width: 10rem;
+  }
+
+  .form-transaction button {
+    height: 1.5rem;
+    margin-top: 0;
+    width: 10rem;
+  }
+}

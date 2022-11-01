@@ -12,27 +12,6 @@ main {
   position: relative;
 }
 
-/* .circle {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: #ffb200;
-  border-radius: 50%;
-  top: 50px;
-  left: 250px;
-  opacity: 50%;
-}
-.small-circle {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: #ffb200;
-  border-radius: 50%;
-  top: 50px;
-  left: 370px;
-  opacity: 70%;
-} */
-
 main h1 {
   font-size: 2rem;
   font-weight: 400;
@@ -71,4 +50,27 @@ main .get-started a {
 
 main .arrow {
   padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #ffb200;
+    border-radius: 50%;
+    top: 0px;
+    left: 10px;
+    opacity: 50%;
+  }
+  .small-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #ffb200;
+    border-radius: 50%;
+    top: 10px;
+    left: 150px;
+    opacity: 70%;
+  }
 }

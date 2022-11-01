@@ -92,8 +92,8 @@ function Auth() {
             <h2>{isRegister ? 'Sign In' : 'Log In'}</h2>
             <p>
               {isRegister
-                ? 'Please enter your details to sign in'
-                : 'Please enter your details to log in'}
+                ? 'Please enter your details to create new account'
+                : 'Please enter your details to log in into your account'}
             </p>
             {isRegister && (
               <>

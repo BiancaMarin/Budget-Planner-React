@@ -5,6 +5,7 @@
   align-items: center;
   background-color: #212121;
   height: 100vh;
+  width: 100%;
 }
 
 .dashboard h1 {
@@ -18,10 +19,12 @@
   border-radius: 8px;
 }
 
-.dashboard .info-panel .income-expense {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1rem;
-  font-weight: 600;
+@media screen and (min-width: 768px) {
+  .dashboard {
+    justify-content: flex-start;
+  }
+
+  .dashboard h1 {
+    padding: 1rem 0;
+  }
 }

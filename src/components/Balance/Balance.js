@@ -40,45 +40,47 @@ function Balance() {
 
   return (
     <>
-      <section>
-        <div className={styles['balance']}>
-          {' '}
-          <p>Current Balance</p>
-          <output>
-            <span>$</span>
-            {balance}
-          </output>
-        </div>
-      </section>
-      <section className={styles['income-expense']}>
-        <div className={styles['incomes']}>
-          <p>
-            Incomes{' '}
-            <FontAwesomeIcon
-              icon={solid('arrow-up')}
-              className={styles['positive']}
-            />{' '}
-          </p>
-          <output className={styles['positive']}>
+      <div className={styles['balance-section']}>
+        <section>
+          <div className={styles['balance']}>
             {' '}
-            <span>$</span>
-            {totalIncomeAmounts}
-          </output>
-        </div>
-        <div className={styles['expenses']}>
-          <p>
-            Expenses{' '}
-            <FontAwesomeIcon
-              icon={solid('arrow-down')}
-              className={styles['negative']}
-            />
-          </p>
-          <output className={styles['negative']}>
-            <span>$</span>
-            {totalExpenseAmounts}
-          </output>
-        </div>
-      </section>
+            <p>Current Balance</p>
+            <output>
+              <span>$</span>
+              {balance}
+            </output>
+          </div>
+        </section>
+        <section className={styles['income-expense']}>
+          <div className={styles['incomes']}>
+            <p>
+              Incomes{' '}
+              <FontAwesomeIcon
+                icon={solid('arrow-up')}
+                className={styles['positive']}
+              />{' '}
+            </p>
+            <output className={styles['positive']}>
+              {' '}
+              <span>$</span>
+              {totalIncomeAmounts}
+            </output>
+          </div>
+          <div className={styles['expenses']}>
+            <p>
+              Expenses{' '}
+              <FontAwesomeIcon
+                icon={solid('arrow-down')}
+                className={styles['negative']}
+              />
+            </p>
+            <output className={styles['negative']}>
+              <span>$</span>
+              {totalExpenseAmounts}
+            </output>
+          </div>
+        </section>
+      </div>
     </>
   );
 }
