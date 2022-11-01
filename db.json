@@ -6,27 +6,6 @@
       "firstName": "Bianca",
       "lastName": "ioana",
       "id": 1
-    },
-    {
-      "email": "marin.biancaioana@gmail.com",
-      "password": "$2a$10$53LOCX3MyoHKYDQhlxTn7OR0GQoVCh5ngqlx6JS/2jW1aOfaEGWIO",
-      "firstName": "Bianca",
-      "lastName": "Marin",
-      "id": 2
-    },
-    {
-      "email": "cata@cata.com",
-      "password": "$2a$10$IAINz1xBQz7NQ2.Ra1rJGuUykStLjFUiA91eGUvgm9kUQP1UAjVoi",
-      "firstName": "bbbb",
-      "lastName": "nnnn",
-      "id": 3
-    },
-    {
-      "email": "bbb@vvv.com",
-      "password": "$2a$10$ppd1GdSvqYlw91iEZfVxPe9jsAwej7.F3Qqi7wYSH5oo/pcp2pEzS",
-      "firstName": "gggg",
-      "lastName": "ggg",
-      "id": 4
     }
   ],
   "transactions": [
@@ -38,25 +17,11 @@
       "id": 9
     },
     {
-      "type": "income",
-      "description": "fff",
-      "amount": "8999",
-      "userId": 1,
-      "id": 10
-    },
-    {
       "type": "expense",
-      "description": "jjjj",
-      "amount": "899",
+      "description": "Rent",
+      "amount": "1200",
       "userId": 1,
-      "id": 11
-    },
-    {
-      "type": "expense",
-      "description": "jjjjjj",
-      "amount": "677",
-      "userId": 1,
-      "id": 12
+      "id": 13
     }
   ]
 }
