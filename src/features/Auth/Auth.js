@@ -205,7 +205,7 @@ function ValidateForm(values, isRegister) {
     if (!upperCase.test(values.password)) {
       validation.isValid = false;
       validation.upperCaseError.password =
-        'The password must contain at least one upper case.';
+        'The password must contain at least two upper case.';
     }
 
     if (!lowerCase.test(values.password)) {

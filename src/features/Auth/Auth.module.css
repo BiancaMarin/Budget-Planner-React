@@ -66,6 +66,7 @@
 
 .form-bgc .form .error {
   align-self: flex-start;
+  margin-left: 2rem;
   color: red;
   padding: 0;
   font-size: 0.6rem;

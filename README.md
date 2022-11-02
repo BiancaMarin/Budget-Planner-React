@@ -23,3 +23,7 @@ $ npm run start-server
 - [x] Create, Read and Delete on transactions entity
 - [x] Tracking expenses and incomes
 - [x] Display current balance
+
+## Illustration
+
+![Mobile](/public/images/mobile.png)

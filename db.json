@@ -6,6 +6,13 @@
       "firstName": "Bianca",
       "lastName": "ioana",
       "id": 1
+    },
+    {
+      "email": "ioana@gmail.com",
+      "password": "$2a$10$DpM4i3i1HSoFn9vAVZgMh.uJ.Vp3wcRyAxCayrJUK.ZuVAVSgXUdO",
+      "firstName": "Bianca",
+      "lastName": "Ioana",
+      "id": 2
     }
   ],
   "transactions": [
